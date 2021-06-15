@@ -1,0 +1,63 @@
+--Generated with Syntax's Converter, comet hub in the works! pastebin search coming soooon REEEEEEE.
+--Counted 8 (objects this time!!!)
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+	inst[i] = v
+end
+return inst
+end
+	
+local Idk = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='Idk', Parent=game.CoreGui})
+local pog = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=4,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.362179488, 0, 0.280098289, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 579, 0, 385),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'pog',Parent = Idk})
+local Shop = CreateInstance('TextButton',{Font=Enum.Font.Arcade,FontSize=Enum.FontSize.Size14,Text='AdminShop',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=4,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0207253881, 0, 0.179220781, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 268, 0, 50),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Shop',Parent = pog})
+local Plate = CreateInstance('TextButton',{Font=Enum.Font.Arcade,FontSize=Enum.FontSize.Size14,Text='AdminBosses',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=4,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.514680505, 0, 0.179220781, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 268, 0, 50),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Plate',Parent = pog})
+local Rancer = CreateInstance('TextButton',{Font=Enum.Font.Arcade,FontSize=Enum.FontSize.Size14,Text='RancerItems',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=4,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0207253993, 0, 0.379220784, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 268, 0, 50),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Rancer',Parent = pog})
+local TextLabel = CreateInstance('TextLabel',{Font=Enum.Font.Arcade,FontSize=Enum.FontSize.Size14,Text='UTMMR GUI : Nyko#8509',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=4,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 579, 0, 50),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='TextLabel',Parent = pog})
+local God = CreateInstance('TextButton',{Font=Enum.Font.Arcade,FontSize=Enum.FontSize.Size14,Text='GodMode',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=4,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.514680505, 0, 0.379220784, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 268, 0, 50),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='God',Parent = pog})
+local GodModeWarning = CreateInstance('TextLabel',{Font=Enum.Font.Arcade,FontSize=Enum.FontSize.Size14,Text='!Only Run GodMode When in battle!',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0, 0, 0),BackgroundTransparency=0,BorderColor3=Color3.new(1, 1, 1),BorderSizePixel=4,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.870129883, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 579, 0, 50),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='GodModeWarning',Parent = pog})
+
+Rancer.MouseButton1Click:Connect(function()
+    local player = game.Players.LocalPlayer
+    player.RANCERSHRINEDONATED.DonatedG.Value = 9999999999999999996942099999
+end)
+
+Plate.MouseButton1Click:Connect(function()
+    local player = game.Players.LocalPlayer
+	local AdminTP = game.Workspace.AdminRoom.AdminTeleporter
+
+	player.character.HumanoidRootPart.CFrame = AdminTP.CFrame
+end)
+
+Shop.MouseButton1Click:Connect(function()
+    local player = game.Players.LocalPlayer
+    local AdminShop = game.Workspace.Shops.AdminShop
+
+	player.character.HumanoidRootPart.CFrame = AdminShop.CFrame
+end)
+
+God.MouseButton1Click:Connect(function()
+    local descendants = game.Workspace:GetDescendants()
+for index, descendant in pairs(descendants) do
+    if descendant:IsA("RemoteEvent") then
+        descendant:Destroy()
+    end
+end
+end)
+
+function onKeyPress(inputObject, gameProcessedEvent)
+if inputObject.KeyCode == Enum.KeyCode.E then
+if pog.Visible == false then
+pog.Visible = true
+else
+pog.Visible = false
+end
+end
+end
+
+game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+
+pog.Active = true
+pog.Draggable = true
+
+--v1
